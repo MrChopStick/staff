@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context="com.example.actionbartest.MainActivity">
+
+    <item android:id="@+id/action_scan"
+          android:icon="@drawable/scan"
+          app:showAsAction="never"
+          android:title="扫一扫"
+          />
+    <item
+        android:id="@+id/action_sync"
+        android:icon="@drawable/menu"
+        app:showAsAction="never"
+        android:title="同步任务"/>
+    <item
+        android:id="@+id/action_upload"
+        android:icon="@drawable/menu"
+        app:showAsAction="never"
+        android:title="上  传"/>
+</menu>

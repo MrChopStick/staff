@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#1594d8"
+        >
+        <ImageView
+            android:id="@+id/scan"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/scan"/>
+
+        <TextView
+            android:id="@+id/top_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="160dp"
+            android:layout_centerInParent="true"
+            android:textSize="22sp"
+            android:fontFamily="casual"
+            android:textColor="#000000"
+            android:text="巡检任务"/>
+        <ImageView
+            android:id="@+id/upload"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/upload"/>
+        <ImageView
+            android:id="@+id/sync"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_toLeftOf="@id/upload"
+            android:layout_marginRight="15dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/sycn"/>
+
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/task_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>
